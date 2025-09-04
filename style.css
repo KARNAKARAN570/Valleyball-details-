@@ -1,0 +1,161 @@
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #f9f9f9;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+.container {
+
+  max-width: 700px;
+
+  margin: 50px auto;
+
+  text-align: center;
+
+  padding: 20px;
+
+}
+
+h1 {
+
+  color: #333;
+
+  margin-bottom: 20px;
+
+}
+
+#searchBar {
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: 2px solid #ddd;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+}
+
+#playerList {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+#playerList li {
+
+  background: white;
+
+  margin: 10px 0;
+
+  padding: 15px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+#playerList li:hover {
+
+  background: #ffe6cc;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 20px;
+
+  margin-top: 20px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  text-align: center;
+
+}
+
+.card img {
+
+  width: 150px;
+
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  margin-bottom: 15px;
+
+}
+
+.hidden {
+
+  display: none;
+
+}
+
+#playerMedals {
+
+  font-size: 18px;
+
+  margin-top: 10px;
+
+}
+
+.medal {
+
+  font-size: 20px;
+
+  margin: 0 5px;
+
+}
+
+#closeBtn {
+
+  margin-top: 15px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  background: #ff704d;
+
+  color: white;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+#closeBtn:hover {
+
+  background: #e64a19;
+
+}
